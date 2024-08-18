@@ -1,0 +1,6 @@
+framework:
+    mailer:
+        message_bus: messenger.default_bus
+        dsn: '%env(MAILER_DSN)%'
+        envelope:
+            sender: 'sock-tracker@example.com'
