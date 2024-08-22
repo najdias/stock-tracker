@@ -4,12 +4,13 @@ A [Symfony](https://symfony.com) based stock tracker with [Vue.js](https://vuejs
 
 ## Getting Started
 
-1. If not already done, [install Docker Compose](https://docs.docker.com/compose/install/) (v2.10+).
-2. Make sure that no other service is running on ports 80, 443, 8080, 3306 and 8025.
-3. Clone this repository.
-4. Go to project folder `cd stock-tracker`.
-5. Run `make start` to build and start the containers.
-6. Download and add the [Postman collection](docs/Stock-Tracker.postman_collection.json) to your Postman app.
+1. If not already done, [install Docker](https://docs.docker.com/get-started/get-docker/).
+2. If not already done, [install Postman](https://www.postman.com/downloads/).
+3. Make sure that no other service is running on ports 80, 443, 8080, 3306 and 8025.
+4. Clone this repository.
+5. Go to project folder `cd stock-tracker`.
+6. Run `make start` to build and start the containers.
+7. Download and add the [Postman collection](docs/Stock-Tracker.postman_collection.json) to your Postman app.
    1. This collection has all the endpoints that the app uses.
       1. Login Check - To login the user and get the JWT token.
       2. Register - To register a new user.
